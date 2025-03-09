@@ -1,0 +1,167 @@
+main{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-gap: 1%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    
+}
+
+.instructions-items{
+    box-shadow: 0 0 1rem hsl(34, 98%, 35%);
+    border-radius: 10px;
+}
+.instructions-pic img{
+    width: 40%;
+    height: 40%;
+    border-radius: 10px;
+}
+.instructions-items h3,
+.instructions-items p{
+    text-justify: center; 
+    text-align: center;
+}
+
+#heading{
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 0 1rem hsl(34, 98%, 35%);
+    border-radius: 10px;
+}
+#start{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+#start-pic{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+#level-selction-pic{
+    grid-column-start: 1;
+    grid-row-start: 3;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+#level-selction{
+    grid-column-start: 2;
+    grid-row-start: 3;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+#paddle-pic{
+    grid-column-start: 2;
+    grid-row-start: 4;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+#paddle{
+    grid-column-start: 1;
+    grid-row-start: 4;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+#ball-right{
+    grid-column-start: 2;
+    grid-row-start: 5;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+#ball-right-pic{
+    grid-column-start: 1;
+    grid-row-start: 5;
+     text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+#ball-left-pic{
+    grid-column-start: 2;
+    grid-row-start: 6;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+#ball-left{
+    grid-column-start: 1;
+    grid-row-start: 6;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+#restart-pic{
+    grid-column-start: 2;
+    grid-row-start: 7;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+#restart{
+    grid-column-start: 1;
+    grid-row-start: 7;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+#game-over{
+    grid-column-start: 1;
+    grid-row-start: 6;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}   
+#game-over-pic{
+    grid-column-start: 2;
+    grid-row-start: 6;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+#restart-pic{
+    grid-column-start: 1;
+    grid-row-start: 7;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+#restart{
+    grid-column-start: 2;
+    grid-row-start: 7;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
