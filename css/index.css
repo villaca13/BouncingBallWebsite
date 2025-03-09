@@ -1,0 +1,26 @@
+
+main {
+  display: grid;
+  grid-template-columns: 50% 47%;
+  grid-gap: 3%;
+  justify-content: space-evenly;
+  align-content: space-between;  
+}
+.introduction {
+  grid-column-start: 1;
+  grid-column-end : span 2;
+  text-align: center;
+}
+
+.mainScreenPic{
+  grid-column-start: 1; 
+  text-align: center;
+}
+aside{
+  grid-column-start: 2 ; 
+  place-content: center;
+}
+#mainScreenBB {
+  width: 100%;
+  height: 100%;
+}

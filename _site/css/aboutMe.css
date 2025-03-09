@@ -1,0 +1,108 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+      
+}
+
+main{
+    display: grid;
+    grid-template-columns: 30% 34% 30%;
+    grid-gap: 3%;
+    justify-content: space-evenly;
+    align-content:space-between;  
+  }
+.details{
+    grid-column-start: 1;
+}
+.details ul{
+    align-content: center;
+}
+
+.details li {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #222121;
+    margin: 8px 0;
+}
+.details .li-label{
+    font-weight: 700;
+}
+
+.aboutme {
+    grid-column-start: 2; 
+    justify-items: center;
+}
+.aboutme p {
+    color: #222121;
+    margin: 8px 0;
+    text-align: justify;
+    padding: 2%;
+    line-height: 2em;
+}
+
+.aboutme button{
+    place-self: center;
+    background-color: #000;
+    color: #ff9300;
+    margin-top: 20%;
+}
+.myself{
+    padding: 5px 20px;
+    background-color: #ff9300;
+    border-radius: 10px;
+    grid-column-start: 3; 
+    justify-items: center;
+    align-items: center;
+}
+.myself p {
+    color: #222121;
+    margin: 8px 0;
+    text-align: center;
+    padding: 0 30%;
+    line-height: 2em;
+}
+
+#myselfpic{ 
+    width: 100%;
+    height: 45%;
+    border-radius:30%;
+    border: 2px solid #f1f1f1;
+}
+.headline{
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    color: #333;
+    margin: 10px 0;
+}
+.followme {
+    grid-column-start: 1;
+    grid-column-end: span 3;
+}
+.followme-list{   
+    display: grid;
+    justify-content:center;
+    align-items: center;
+    list-style: none;
+}
+.followme-list li{   
+    border-radius: 40px;
+    background-color: #ff9300;
+    padding: 10px;
+    margin: 0 25px;
+}
+#Linkedin {
+    grid-column-start: 1;
+    background-color: #ff9300;
+}
+#Github {
+    grid-column-start: 2;
+}
+#Freecodecamp {
+    grid-column-start: 3;
+}
