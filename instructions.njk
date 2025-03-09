@@ -1,42 +1,60 @@
 ---
 layout: mainLayout.njk
 ---
+<!-- Link to CSS -->
+<link rel="stylesheet" href="/css/instructions.css" />
+
 <main>
-    <h1>Instructions</h1>
-    <p>Here are the instructions for the game:</p>
-    <section>  
-        <div id="start" class="Instructions-items">
-            <h2>Start</h2>
-            <p>Click on the "Start" button and insert your name to start the game.</p>
-            <img src="/images/click-start.gif" alt="Start button">
-        </div>
-        <div id="paddle" class="Instructions-items">
-            <h2>Paddle Moviment</h2>
-            <p>Move mouse horizontally to move the paddle.</p>
-            <img src="/images/paddle-moviment.gif" alt="Paddle Moviment">
-        </div>
-        <div id="ball-right" class="Instructions-items">
-            <h2>Ball Moviment</h2>
-            <p>the Ball moves to the RIGHT if hit by the LEFT portion of the paddle.</p>
-            <img src="/images/hit-up-to-the-rigth.gif" alt="Ball Moviment to the right">
-        </div>
-        <div id="ball-left" class="Instructions-items">
-            <h2>Ball Moviment</h2>
-            <p>the Ball moves to the LEFT if hit by the LEFT portion of the paddle.</p>
-            <img src="/images/hit-up-to-the-left.gif" alt="Ball Moviment to the left">
-        </div>
-        <div id="level-selction" class="Instructions-items">
-            <h2>Level Selection </h2>
-            <p>A diffetent level can be selected by clicking on Level button.</p>
-            <img src="/images/select-level.gif" alt="Level Selection">
-        </div>
-        <div id="restart" class="Instructions-items">
-            <h2>Restart </h2>
-            <p> Click on Restart button to restart the game on default level and keep playing.</p>
-            <img src="/images/restart.gif" alt="Level Selection">
-        </div>
-    </section>
+    <div id="heading" >
+        <h1>Instructions</h1>
+        <p>Here are the instructions for the game:</p>
+    </div>
+    <div id="start" class="instructions-items">
+        <h3>Start</h3>
+        <p>Click on the "Start" button and insert your name to start the game.</p>
+    </div>
+    <div id="start-pic" class="instructions-pic">
+        <img src="/images/click-start.gif" alt="Start button">
+    </div>
+
+    <div id="paddle" class="instructions-items">
+        <h3>Paddle Moviment</h3>
+        <p>Move mouse horizontally to move the paddle.</p>
+    </div>
+    <div id="paddle-pic" class="instructions-pic">
+        <img src="/images/paddle-moviment.gif" alt="Paddle Moviment">
+    </div>
+
+    <div id="ball-right" class="instructions-items">
+        <h3>Ball to the right</h3>
+        <p>the Ball moves to the RIGHT if hit by the RIGHT portion of the paddle.</p>
+    </div>
+    <div id="ball-right-pic" class="instructions-pic">
+        <img src="/images/hit-up-to-the-rigth.gif" alt="Ball Moviment to the right">
+    </div>
+
+    <div id="ball-left" class="instructions-items">
+        <h3>Ball to the left</h3>
+        <p>the Ball moves to the LEFT if hit by the LEFT portion of the paddle.</p>    
+    </div>
+    <div id="ball-left-pic" class="instructions-pic">
+        <img src="/images/hit-up-to-the-left.gif" alt="Ball Moviment to the left">
+    </div>
+
+    <div id="level-selction" class="instructions-items">
+        <h3>Level Selection </h3>
+        <p>A diffetent level can be selected by clicking on Level button.</p>
+    </div>
+    <div id="level-selction-pic" class="instructions-pic">
+        <img src="/images/select-level.gif" alt="Level Selection">
+    </div>
+
+    <div id="restart" class="instructions-items">
+        <h3>Restart </h3>
+        <p> Click on Restart button to restart the game on default level and keep playing.</p>
+    </div>
+    <div id="restart-pic" class="instructions-pic">
+        <img src="/images/restart.gif" alt="Level Selection">
+    </div>
+    
 </main>
-<aside>
-  
-</aside>
