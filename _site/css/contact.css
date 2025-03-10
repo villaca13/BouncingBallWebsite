@@ -34,7 +34,7 @@ main section{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 1.5rem ;
-    box-shadow: 0 0 1rem hsla(0 0 0 / 16%);
+    box-shadow: 0 0 1rem hsla(34, 97%, 37%, 0.429);
     border-radius: 0.5rem;
     overflow: hidden;
 
@@ -57,7 +57,7 @@ main section{
     width: 100%;
     border: none;
     outline: none;
-    background-color: #2c2f48;
+    background-color: #dfc49c;
     padding: 10px;
     font-size: 0.9rem;
     color: #000;
