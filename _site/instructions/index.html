@@ -15,75 +15,126 @@
   <body>
     <header>
     <a href="#"> <img id="logo" src="/images/logo.png" alt="Company Logo"></a>
-    <nav>
-        <ul class="nav-list">
-            <li><a href="/index"><i class="material-symbols-outlined">home</i></a></li>
-            <li><a href="/aboutMe">About</a></li>
-            <li><a href="/instructions">Instructions</a></li>
-            <li><a href="/settings">Settings</a></li>
-            <li><a href="/ranking">Ranking</a></li>
-            <li><a href="/pricing">Pricing</a></li>
+    <nav id="navigation">
+        
+        <ul id="menu">
+            <li>
+                     
+                    <a href="/">home</a> 
+                
+            </li>
+            
+            <li>
+                     
+                    <a href="/aboutMe/">About</a> 
+                
+            </li>
+            
+            <li class="active" >
+                     
+                    <a href="/instructions/">Instructions</a> 
+                
+            </li>
+            
+            <li>
+                     
+                    <a href="/settings/">Settings</a> 
+                
+            </li>
+            
+            <li>
+                     
+                    <a href="/ranking/">Ranking</a> 
+                
+            </li>
+            
+            <li>
+                     
+                    <a href="/pricing/">Pricing</a> 
+                
+            </li>
+            
+            <li>
+                
+            </li>
+                 
+                <a href="/contact/"><button class="normal" >Contact</button></a> 
+            
         </ul>
     </nav>
-    <a href="/contact"><button>Contact</button></a>
 </header>
     <div class="mainContent">
       <!-- Link to CSS -->
 <link rel="stylesheet" href="/css/instructions.css" />
 
 <main>
-    <div id="heading" >
-        <h1>Instructions</h1>
-        <p>Here are the instructions for the game:</p>
-    </div>
-    <div id="start" class="instructions-items">
-        <h3>Start</h3>
-        <p>Click on the "Start" button and insert your name to start the game.</p>
-    </div>
-    <div id="start-pic" class="instructions-pic">
-        <img src="/images/click-start.gif" alt="Start button">
-    </div>
+    <section class="instructions-title">
+        <div id="heading" >
+            <h1>Instructions</h1>
+            <p>Here are the instructions for the game:</p>
+        </div>
+    </section>
 
-    <div id="paddle" class="instructions-items">
-        <h3>Paddle Moviment</h3>
-        <p>Move mouse horizontally to move the paddle.</p>
-    </div>
-    <div id="paddle-pic" class="instructions-pic">
-        <img src="/images/paddle-moviment.gif" alt="Paddle Moviment">
-    </div>
+    <section class="instructions-container">
+        <div id="start" class="instructions-items">
+            <h3>Start</h3>
+            <p>Click on the "Start" button and insert your name to start the game.</p>
+        </div>
+        <div id="start-pic" class="instructions-pic">
+            <img src="/images/click-start.gif" alt="Start button">
+        </div>    
+    </section>
 
-    <div id="ball-right" class="instructions-items">
-        <h3>Ball to the right</h3>
-        <p>the Ball moves to the RIGHT if hit by the RIGHT portion of the paddle.</p>
-    </div>
-    <div id="ball-right-pic" class="instructions-pic">
-        <img src="/images/hit-up-to-the-rigth.gif" alt="Ball Moviment to the right">
-    </div>
+    <section class="instructions-container">
+        <div id="level-selction" class="instructions-items">
+            <h3>Level Selection </h3>
+            <p>A diffetent level can be selected by clicking on Level button.</p>
+        </div>
+        <div id="level-selction-pic" class="instructions-pic">
+            <img src="/images/select-level.gif" alt="Level Selection">
+        </div>
+    </section>
 
-    <div id="ball-left" class="instructions-items">
-        <h3>Ball to the left</h3>
-        <p>the Ball moves to the LEFT if hit by the LEFT portion of the paddle.</p>    
-    </div>
-    <div id="ball-left-pic" class="instructions-pic">
-        <img src="/images/hit-up-to-the-left.gif" alt="Ball Moviment to the left">
-    </div>
+    <section class="instructions-container">
+        <div id="paddle" class="instructions-items">
+            <h3>Paddle Moviment</h3>
+            <p>Move mouse horizontally to move the paddle.</p>
+        </div>
+        <div id="paddle-pic" class="instructions-pic">
+            <img src="/images/paddle-moviment.gif" alt="Paddle Moviment">
+        </div>
+    </section>
 
-    <div id="level-selction" class="instructions-items">
-        <h3>Level Selection </h3>
-        <p>A diffetent level can be selected by clicking on Level button.</p>
-    </div>
-    <div id="level-selction-pic" class="instructions-pic">
-        <img src="/images/select-level.gif" alt="Level Selection">
-    </div>
+    <section class="instructions-container">
+        <div id="ball-right" class="instructions-items">
+            <h3>Ball to the right</h3>
+            <p>the Ball moves to the RIGHT if hit by the RIGHT portion of the paddle.</p>
+        </div>
+        <div id="ball-right-pic" class="instructions-pic">
+            <img src="/images/hit-up-to-the-rigth.gif" alt="Ball Moviment to the right">
+        </div>
+    </section>
 
-    <div id="restart" class="instructions-items">
-        <h3>Restart </h3>
-        <p> Click on Restart button to restart the game on default level and keep playing.</p>
-    </div>
-    <div id="restart-pic" class="instructions-pic">
-        <img src="/images/restart.gif" alt="Level Selection">
-    </div>
+    <section class="instructions-container">
+        <div id="ball-left" class="instructions-items">
+            <h3>Ball to the left</h3>
+            <p>the Ball moves to the LEFT if hit by the LEFT portion of the paddle.</p>    
+        </div>
+        <div id="ball-left-pic" class="instructions-pic">
+            <img src="/images/hit-up-to-the-left.gif" alt="Ball Moviment to the left">
+        </div>
+    </section>
     
+    
+    <section class="instructions-container">
+        <div id="restart" class="instructions-items">
+            <h3>Restart </h3>
+            <p> Click on Restart button to restart the game on default level and keep playing.</p>
+        </div>
+        <div id="restart-pic" class="instructions-pic">
+            <img src="/images/restart.gif" alt="Level Selection">
+        </div>
+    </section>
 </main>
     </div>
     <footer>
