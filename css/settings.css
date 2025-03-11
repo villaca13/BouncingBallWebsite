@@ -1,53 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@100..900&display=swap');
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
 main{
-    display: grid;
-    grid-template-columns: 48% 48%;
-    grid-gap: 20px;
-    margin: 0;
-    padding: 0;
-    align-items: center;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
 }
 main li{
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
+.settings-container{
+    font-family: 'lato', sans-serif;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-gap: 0;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    width: 80%;
+}
+
+.settings-container h2{
+    background-color: #b36b07;
+    color: #fff;
+    margin: 0 ;
+    padding: 0;
+    border-radius: 25px 25px 0 0;
+}
+.settings-container p{
+    background-color: #ff9300;
+    color: #fff;
+    margin: 0 ;
+    padding: 5px;
+
+}
+.settings-title{
+    font-family: 'lato', sans-serif;
+    text-align: center;   
+    font-size: 1.5em;
+    padding: 0;
+}
+#headings{
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 0;
+}
+
 .settings-pic img{
     width: 100%;
     height: 100%;
-    border-radius: 10px;
+    padding: 0;
+    margin: 0;
 }
 video{
     width: 100%;
     height: 100%;
-    border-radius: 10px;
-}
-
-#headings{
-    grid-column-start: 1;
-    grid-column-end: span 2;
-    text-align: center;
-    font-size: 1.5em;
-    margin: 0;
-    padding: 0;
-    box-shadow: 0 0 1rem hsl(34, 98%, 35%);
-    border-radius: 10px;
-}
-#show-parameters1{
-    grid-column-start: 1;
-    grid-row-start: 3;
-}
-
-#show-parameters2{
-    grid-column-start: 2;
-    grid-row-start: 3;
-}
-#nogameover1{
-    grid-column-start: 1;
-    grid-row-start: 5;
-}
-
-#nogameover2{
-    grid-column-start: 2;
-    grid-row-start: 5;
 }

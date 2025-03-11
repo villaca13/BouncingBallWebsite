@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@100..900&display=swap');
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
 main{
     display: flex;
     flex-direction: column;
@@ -8,15 +26,18 @@ main{
     
 }
 .instructions-container{
+
     display: grid;
     grid-template-columns: 50% 50%;
     box-shadow: 0 0 1rem hsl(34, 98%, 35%);
     border-radius: 10px;
     margin-bottom: 15px;
     align-items: center;
+    width: 80%;
 }
 
 .instructions-title {
+    font-family: 'lato', sans-serif;
     text-align: center;
     font-size: 1.5em;
     margin-bottom: 15px;
@@ -31,10 +52,12 @@ main{
 }
     
 .instructions-items h3{
+    font-family: 'lato', sans-serif;
     font-size: 2em;
     text-align: center;
 }
 .instructions-items p{
+    font-family: 'lato', sans-serif;
     font-size: 1.2em;
     text-align: center;
     line-break:loose;

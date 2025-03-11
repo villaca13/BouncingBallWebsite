@@ -37,8 +37,13 @@ main{
     line-height: 1.5;
     color: #555555;
     margin: 15px;
-
 }
+.pricing-plan:hover{
+    margin: 25px;
+    width: 33%;
+    transition: all 0.4s ease 0s;
+}
+
 .pricing-plan--highlighted{
     box-shadow: 0 0 15px rgba(166, 91, 4, 0.445);
     transform: scale(1.05);
