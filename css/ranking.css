@@ -25,6 +25,8 @@ table, th, td {
     border-radius: 10px;
 }
 aside {
+    display: flex;
+    flex-direction: column;
     grid-column-start: 2;
     box-shadow: 0 0 1rem hsla(0 0 0 / 16%);
     border-color: black;
@@ -35,8 +37,8 @@ aside h2 {
     text-align: center;
 }
 aside li{
-    padding: 10px;
     justify-self: center;
+    margin-bottom: 1em;
 }
 .avatar {
     width: 100px;

@@ -87,6 +87,7 @@ BouncingBallWebsite/
 
 ## Acknowledgments - next
 
+- Navigation bar inspiration and code from [SkillThrive](https://www.youtube.com/watch?v=PwWHL3RyQgk&t=621s).
 - "Contact" page inspiration and code from [CarPoolVenom](https://www.youtube.com/watch?v=nwEB3Wxh5N0).
 - "About Me" page inspiration from [Nicepage](https://nicepage.com/ht/1362604/creative-designer-profile-html-template).
 - "Pricing" page inspiration and code from [dcode](https://www.youtube.com/watch?v=jfh0ZJFhj2w).
@@ -94,6 +95,7 @@ BouncingBallWebsite/
 - Readme template from [comp1800](https://github.com/comp1800/web_template).
 - Creating table in HTML from [w3schools](https://www.w3schools.com/html/html_tables.asp).
 - Profile avatar from [freepik](https://www.freepik.com/).
+- Home icon from [Google icons](https://fonts.google.com/icons).
 
 ---
 

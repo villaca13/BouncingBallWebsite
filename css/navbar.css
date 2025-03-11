@@ -1,21 +1,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 
-header
-{
-	background-color: #ff9300;
+header{
 	display: flex;
 	justify-content: space-between;
-	align-items: center ;
+	align-items: center;
 	padding: 2px 10% ;
 	border-radius: 50px;
-
+	background-color: #ff9300;
+	
+}
+.material-symbols-rounded{
+	position: relative;
+	top: 6px;	
 }
 
 ul#menu li {
-	display:flex;
-	flex-direction:row;
-    align-items: center;  
+	display:inline-block;  
 	padding-right: 1em;
 	padding-left: 1em;
 
@@ -49,6 +50,7 @@ li, a, button {
 
 #logo
 {
+	cursor: pointer;
 	width: 90px ;
 	height: 90px;
 }
@@ -72,12 +74,4 @@ button:hover {
 	padding: .5em 2em .5em 2em;
 	color: white;
 	border-radius: 50px;
-}
-
-.material-symbols-outlined {
-	font-variation-settings:
-	'FILL' 0,
-	'wght' 400,
-	'GRAD' 0,
-	'opsz' 24
 }
