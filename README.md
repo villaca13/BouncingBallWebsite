@@ -111,6 +111,7 @@ BouncingBallWebsite/
 - Improve the website design selecting a balanced colour palette and applying new website aesthetics trends.
 - Create a Web app to allow people to play on the webpage. 
 - Create a database to store data and create real rankings and statistics. 
+- Improve the layout to make it responsive and nice for all types of devices/screen sizes. 
 
 ---
 
