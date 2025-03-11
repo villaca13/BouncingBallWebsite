@@ -8,84 +8,135 @@
     <link rel="stylesheet" href="/css/mainLayout.css" />
     <link rel="stylesheet" href="/css/navbar.css" />
     <!-- Home icon -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=home" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=home" />
     <!-- favicon -->
     <link id="favicon" rel="icon" href="/images/faviconBB.png" type="image/png">
   </head>
   <body>
     <header>
+    <!-- Logo -->
+    <div class= "header-items">
     <a href="#"> <img id="logo" src="/images/logo.png" alt="Company Logo"></a>
-    <nav>
-        <ul class="nav-list">
-            <li><a href="/index"><i class="material-symbols-outlined">home</i></a></li>
-            <li><a href="/aboutMe">About</a></li>
-            <li><a href="/instructions">Instructions</a></li>
-            <li><a href="/settings">Settings</a></li>
-            <li><a href="/ranking">Ranking</a></li>
-            <li><a href="/pricing">Pricing</a></li>
-        </ul>
-    </nav>
-    <a href="/contact"><button>Contact</button></a>
+    </div>
+    <!-- Navigation bar -->
+    <div class= "header-items">
+        <nav id="navigation">
+            
+            <ul id="menu">
+                <li>
+                         
+                        <a href="/">  <span class="material-symbols-outlined">home</span> </a> 
+                    
+                </li>
+                <li>
+                         
+                        <a href="/aboutMe/">  About</a> 
+                    
+                </li>
+                <li>
+                         
+                        <a href="/instructions/">  Instructions</a> 
+                    
+                </li>
+                <li class="active" >
+                         
+                        <a href="/settings/">  Settings</a> 
+                    
+                </li>
+                <li>
+                         
+                        <a href="/ranking/">  Ranking</a> 
+                    
+                </li>
+                <li>
+                         
+                        <a href="/pricing/">  Pricing</a> 
+                    
+                </li>
+                <li>
+                    
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Contact Button -->
+    <div class= "header-items">
+            
+            
+            
+            
+            
+            
+                 
+                <a href="/contact/"><button class="normal" >Contact</button></a> 
+            
+    </div>    
 </header>
     <div class="mainContent">
       <!-- Link to CSS -->
 <link rel="stylesheet" href="/css/settings.css" />
 
 <main>
-    <div id="headings" >    
-        <h1>Settings</h1>
-        <ul>
-            <li>Click on the opton with RIGHT button of mouse to enable.</li>
-            <li>Click on the option with LEFT button of mouse to disable.</li>
-        </ul>
-        <p>Here are the settings available for the game:</p>
-    </div>
-
-    <div id="headings" >
-        <h2>Show Parameters</h2>
-        <p>Hidden parameters are shown on the screen to help debugging the code.</p>
-    </div>
-
-    <div id="show-parameters1" class="settings-pic">
-        <img src="/images/ShowParametersON.png" alt="Show Parameters">
-    </div>
-    <div id="show-parameters2" class="settings-pic">
-        <img src="/images/ShowParametersON2.png" alt="Show Paramenter main screen">
-    </div>
-
+    <section class="settings-title">
+        <div>    
+            <h1>Settings</h1>
+            <ul>
+                <li>How to enable/disable setting options:</li>
+                <li>Click on the opton with RIGHT button of mouse to enable.</li>
+                <li>Click on the option with LEFT button of mouse to disable.</li>
+            </ul>
+        </div>
+    </section>
     
-    <div id="headings" >
-        <h2>No Game Over</h2>
-        <p>Extend the paddle size to the maximum to help debugging the code and also see the changes on the screen from level 1 to 12.</p>
-    </div>
-    <div id="nogameover1" class="settings-pic">
-        <img src="/images/NoGameOverON.png" alt="No Game Over">
-    </div>
-    <div id="nogameover2" class="settings-pic">
-        <video autoplay loop controls src="/videos/NoGameOver.mp4">
-    </div>
+    <section class="settings-container">
+        <div id="headings" >
+            <h2>Show Parameters</h2>
+            <p>Hidden parameters are shown on the screen to help debugging the code.</p>
+        </div>
 
-    <div id="headings">
-        <h2>Pause Function</h2>
-        <p>When pause function is enabled, use the middle button of the mouse to freeze the game screen as needed.</p>
-    </div>
-    <div id="pause1" class="settings-pic">
-        <img src="/images/PauseON.png" alt="Pause Function">
-    </div>
-    <div id="pause2" class="settings-pic">
-        <video autoplay loop controls src="/videos/Pause.mp4">
-    </div>
-
-    <div id="headings">
-        <h2>Double the paddle size</h2>
-        <p>The paddle size can be increased and then ease the game while you are training and improving your skills.</p>
-    </div>
-    <div id="double-paddle" class="settings-pic">
-        <img src="/images/DoublePaddleON.png" alt="Double Paddle">
-    </div>
-    <div id="double-paddle" class="settings-pic">
-        <video autoplay loop controls src="/videos/DoublePaddle.mp4">
-    </div>
+        <div id="show-parameters1" class="settings-pic">
+            <img src="/images/ShowParametersON.png" alt="Show Parameters">
+        </div>
+        <div id="show-parameters2" class="settings-pic">
+            <img src="/images/ShowParametersON2.png" alt="Show Paramenter main screen">
+        </div>
+        </section>
+    <section class="settings-container">
+        <div id="headings" >
+            <h2>No Game Over</h2>
+            <p>Extend the paddle size to the maximum to help debugging the code and also see the changes on the screen from level 1 to 12.</p>
+        </div>
+        <div id="nogameover1" class="settings-pic">
+            <img src="/images/NoGameOverON.png" alt="No Game Over">
+        </div>
+        <div id="nogameover2" class="settings-pic">
+            <video autoplay loop controls src="/videos/NoGameOver.mp4">
+        </div>
+        </section>
+    <section class="settings-container">
+        <div id="headings">
+            <h2>Pause Function</h2>
+            <p>When pause function is enabled, use the middle button of the mouse to freeze the game screen as needed.</p>
+        </div>
+        <div id="pause1" class="settings-pic">
+            <img src="/images/PauseON.png" alt="Pause Function">
+        </div>
+        <div id="pause2" class="settings-pic">
+            <video autoplay loop controls src="/videos/Pause.mp4">
+        </div>
+    </section>
+    <section class="settings-container">
+        <div id="headings">
+            <h2>Double the paddle size</h2>
+            <p>The paddle size can be increased and then ease the game while you are training and improving your skills.</p>
+        </div>
+        <div id="double-paddle" class="settings-pic">
+            <img src="/images/DoublePaddleON.png" alt="Double Paddle">
+        </div>
+        <div id="double-paddle" class="settings-pic">
+            <video autoplay loop controls src="/videos/DoublePaddle.mp4">
+        </div>
+    </section>
 </main>
 
     </div>

@@ -7,9 +7,38 @@ header
 	display: flex;
 	justify-content: space-between;
 	align-items: center ;
-	padding: 30px 10% ;
+	padding: 2px 10% ;
 	border-radius: 50px;
+
 }
+
+ul#menu li {
+	display:flex;
+	flex-direction:row;
+    align-items: center;  
+	padding-right: 1em;
+	padding-left: 1em;
+
+}
+ul#menu a {
+	text-decoration: none;
+}
+
+#menu li a:hover {
+	background: #007e7e;
+	transition: all 0.3s ease 0s;
+	padding: .5em 2em .5em 2em;
+	color: white;
+	border-radius: 5px;
+}
+
+#menu li.active a {
+	background: #007e7e;
+	padding: .5em 2em .5em 2em;
+	color: white;
+	border-radius: 5px;
+}
+
 li, a, button {
 	font-family: "montserrat", sans-serif;
 	font-weight: 600;
@@ -24,23 +53,7 @@ li, a, button {
 	height: 90px;
 }
 
-.nav-list li a {
-	transition: all 0.3s ease 0s;
-}
-
-.nav-list li a:hover {
-	background-color: #000;
-	padding: 10px 10px;
-	border-radius: 5px;
-	color: #ff9300;
-}
-
-.nav-list li 
-{
-	display: inline-block;
-	padding: 0px 20px;
-}
-button {
+.normal {
 	background-color: #000;
 	color: #ff9300;
 	border: none;
@@ -49,15 +62,22 @@ button {
 	cursor: pointer;
 	transition: all 0.3s ease 0s;
 }
+
 button:hover {
 	background-color: #4a4a49e8;
 }
-/*
+
+.btactive {
+	background: #007e7e;
+	padding: .5em 2em .5em 2em;
+	color: white;
+	border-radius: 50px;
+}
+
 .material-symbols-outlined {
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 24
-  }*/
-  
+	font-variation-settings:
+	'FILL' 0,
+	'wght' 400,
+	'GRAD' 0,
+	'opsz' 24
+}

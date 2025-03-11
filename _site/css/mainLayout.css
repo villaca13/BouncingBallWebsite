@@ -1,13 +1,15 @@
 body {
+    margin: 10px;
     font-family: sans-serif;
     display: grid;
     grid-template-columns: 100%;
-    grid-gap: 2%;
+    grid-gap: 0;
     justify-content: space-evenly;
     align-content: space-between;  
 }
+
 li, a, button{
-    text-decoration: none;
+  text-decoration: none;
 }
 header{
   grid-column-start: 1; 
