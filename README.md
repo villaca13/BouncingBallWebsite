@@ -1,69 +1,75 @@
 
-# Project Name
+# Bouncing Ball Website
 
 ## Overview
-Summarize your project's purpose, problem solved, key features, user benefits, development context, and main technologies used.
-
-Example:
-
-This client-side JavaScript web application provides real-time weather updates for cities worldwide. It simplifies accessing weather information through an intuitive mobile-first interface, allowing users to input a city name and receive data on temperature, humidity, and conditions.
-
-Developed for the [Course Name] course, applying User-Centred Design practices, agile project management processes, integrating a weather API, and Firebase backend services.
+Developed for the higher diploma in computer sciende at SETU. using only HTML and Css.
+Project based on the boucing ball created for the programming assignment where can be foung here: https://github.com/villaca13/BouncingBall 
+Html concepts: use of Divisions, Sections , IDs, Classes, naming of folder and files, Appropriate use of semantics.
+Css concepts: Flexbox, Grid, Sizing, formatting elements, multiple stylesheets
+Nunjucks: templating, layouts, partials, DRY/WET. 
+Site Generator: Eleventy. 
+Deployment: Netlify.
 
 ---
 
 ## Features
-
-Example:
-- Real-time weather updates for any city.
-- Responsive design for desktop and mobile.
-- Displays temperature, humidity, and weather conditions.
+- 7 html pages :  Home, About, instructions, settings, pricing and contact. 
+- Responsive design for desktop.
+- website to present and show intructions on how to play the Bouncing ball game and its features. 
+- Flexbox for navigation 
 
 ---
 
 ## Technologies Used
 
-Example:
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Firebase for hosting
-- **Database**: Firestore
-- **API**: OpenWeatherMap API
+- **Frontend**: HTML, CSS, eleventy, Node 
+- **Backend**: Netlify for hosting
+- **Database**: Not Implemented
+- **API**: Not Implemented
 
 ---
 
 ## Usage
 
-Example:
-1. Open your browser and visit `http://localhost:3000`.
-2. Enter the name of the city in the search bar and press enter.
-3. View the weather information displayed on the screen.
+1. Open command prompt and select the folder where you saved the files. Example: C:\Users\USER\BouncingBallWebsite
+2. When inside the folder use **eleventy --serve** (Eleventy needs to be installed)
+3. Open your browser and visit `http://localhost:8080`.
+4. Home webpage will open and then use the navigation bar to go through the pages. 
 
 ---
 
 ## Project Structure
 
-Example:
 ```
-project-name/
+BouncingBallWebsite/
 ├── src/
 │   ├── index.html
 │   ├── style.css
 │   ├── app.js
 │   └── components/
+├── .elenventy.js
+├── aboutMe.njk
+├── contact.njk
+├── index.njk
+├── instructions.njk
+├── package-lock.json
 ├── package.json
+├── pricing.njk
+├── ranking.njk
 ├── README.md
-└── .gitignore
+├── settings.njk
+├── index.njk
+└── reflection.pdf
 ```
 
 ---
 
 ## Contributors
-- **Your Name** - BCIT CST Student with a passion for creating user-friendly applications. Fun fact: Loves solving Rubik's Cubes in under a minute.
-- **Teammate Name** - BCIT CST Student, Frontend enthusiast with a knack for creative design. Fun fact: Has a collection of over 50 houseplants.
+- **Tiago Linhares Villaca** - HDIP in computer science Student with a passion for coding.
 
 ---
 
-## Acknowledgments
+## Acknowledgments - next
 
 Example:
 - Weather data sourced from [OpenWeatherMap](https://openweathermap.org/).
