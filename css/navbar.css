@@ -70,17 +70,3 @@ button:hover {
 	color: white;
 	border-radius: 50px;
 }
-
-/*
-.nav-list li a {
-	transition: all 0.3s ease 0s;
-}
-
-.nav-list li a:hover {
-	background-color: #000;
-	padding: 10px 10px;
-	border-radius: 5px;
-	color: #ff9300;
-}
-
-
