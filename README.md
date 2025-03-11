@@ -2,8 +2,8 @@
 # Bouncing Ball Website
 
 ## Overview
-Developed for the higher diploma in computer sciende at SETU. using only HTML and Css.
-Project based on the boucing ball created for the programming assignment where can be foung here: https://github.com/villaca13/BouncingBall 
+Developed for the higher diploma in computer sciende at SETU. using only HTML and Css.\n
+Project based on the boucing ball created for the programming assignment where can be foung here:[Bouncing Ball](https://github.com/villaca13/BouncingBall).
 Html concepts: use of Divisions, Sections , IDs, Classes, naming of folder and files, Appropriate use of semantics.
 Css concepts: Flexbox, Grid, Sizing, formatting elements, multiple stylesheets
 Nunjucks: templating, layouts, partials, DRY/WET. 
