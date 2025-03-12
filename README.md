@@ -2,11 +2,11 @@
 # Bouncing Ball Website
 
 ## Overview
-Developed for the higher diploma in computer sciende at SETU. using only HTML and Css.\n
+Developed for the higher diploma in computer sciende at SETU. using only HTML and Css.
 Project based on the boucing ball created for the programming assignment where can be foung here:[Bouncing Ball](https://github.com/villaca13/BouncingBall).
 Html concepts: use of Divisions, Sections , IDs, Classes, naming of folder and files, Appropriate use of semantics.
 Css concepts: Flexbox, Grid, Sizing, formatting elements, multiple stylesheets
-Nunjucks: templating, layouts, partials, DRY/WET. 
+Nunjucks concepts: templating, layouts, partials, DRY/WET . 
 Site Generator: Eleventy. 
 Deployment: Netlify.
 
@@ -15,7 +15,7 @@ Deployment: Netlify.
 ## Features
 - 7 html pages :  Home, About, instructions, settings, pricing and contact. 
 - Responsive design for desktop.
-- website to present and show intructions on how to play the Bouncing ball game and its features. 
+- website to present and show intructions on how to play the Bouncing ball game and to use its features. 
 - Flexbox for navigation 
 
 ---
@@ -31,7 +31,7 @@ Deployment: Netlify.
 
 ## Usage
 
-1. Open command prompt and select the folder where you saved the files. Example: C:\Users\USER\BouncingBallWebsite
+1. Open command prompt and select the folder where you saved the files. Example: C:\Users\(USER)\BouncingBallWebsite
 2. When inside the folder use the eleventy command below ( [Eleventy](https://www.11ty.dev/docs/) needs to be installed)
 ```
 eleventy --serve
@@ -85,7 +85,7 @@ BouncingBallWebsite/
 
 ---
 
-## Acknowledgments - next
+## Acknowledgments
 
 - Navigation bar inspiration and code from [SkillThrive](https://www.youtube.com/watch?v=PwWHL3RyQgk&t=621s).
 - "Contact" page inspiration and code from [CarPoolVenom](https://www.youtube.com/watch?v=nwEB3Wxh5N0).
