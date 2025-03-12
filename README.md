@@ -73,9 +73,9 @@ BouncingBallWebsite/
 ├── pricing.njk
 ├── ranking.njk
 ├── README.md
+├── reflection.pdf
 ├── settings.njk
-├── index.njk
-└── reflection.pdf
+└── template.docx
 ```
 
 ---
